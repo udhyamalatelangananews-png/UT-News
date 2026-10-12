@@ -1,0 +1,24 @@
+{
+  "name": "udhyamala-telangana-news-server",
+  "version": "1.0.0",
+  "description": "Backend for subscriber management, admin auth, and publish-triggered newsletter emails",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5",
+    "node-mailjet": "^6.0.11",
+    "multer": "^2.2.0",
+    "cloudinary": "^2.11.0",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "cookie-parser": "^1.4.6"
+  }
+}
